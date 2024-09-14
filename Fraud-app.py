@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 import numpy as np
-from xgboost import XGBClassifier
+
 
 # Load the model
 model_xgb = pickle.load(open('fraud_final.pkl', 'rb'))
