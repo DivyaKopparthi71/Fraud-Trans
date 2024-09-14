@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
-import numpy as np
 import pandas as pd
+import numpy as np
 
 # Load the model
 model_xgb = pickle.load(open('fraud_final.pkl', 'rb'))
@@ -53,4 +53,3 @@ if st.button("Predict Fraud"):
     
     st.subheader("Prediction Probability")
     st.write(f"Probability of Fraud: {prediction_proba[0]:.2f}")
-
