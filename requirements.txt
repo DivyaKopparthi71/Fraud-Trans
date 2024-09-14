@@ -1,5 +1,5 @@
 streamlit
-xgboost==1.7.5
+xgboost==1.6.2
 pandas 
 scikit-learn
 pickle-mixin
